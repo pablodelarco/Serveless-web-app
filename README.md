@@ -35,9 +35,6 @@ Detail the steps required to set up and run the application locally, including A
 </p>
 </details>
 
-## License
-[Your chosen license]
-
 ## Screenshots/Demo
 Include images/screenshots of the app in action.
 

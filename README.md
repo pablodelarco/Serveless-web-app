@@ -54,6 +54,12 @@ Detail the steps required to set up and run the application locally, including A
 
 <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/280b182f-d63a-448c-a355-7a138567b5b1" width="505"/>
 
+<img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/0391b1d7-64fb-4f61-9ac9-3595f1258236" width="505"/>
+
+<img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/64dc087c-40d5-4e75-a357-74fe9d9fa6fc" width="505"/>
+
+
+
 ## Acknowledgments
 This project was inspired by the AWS tutorial on building a serverless web application: [Build a Serverless Web Application](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?nc1=h_ls).
 

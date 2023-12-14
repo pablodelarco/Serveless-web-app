@@ -1,4 +1,4 @@
-# Serverless Web App in AWS: UnicornRides
+# AWS Serverless Web App: UnicornRides
 
 
   <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/f6b5af36-3b71-4b1b-8e36-58541b4f2915" width="600"/>

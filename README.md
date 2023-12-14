@@ -8,7 +8,7 @@ UnicornRides is a web application for requesting unicorn rides from Wild Rydes. 
 - Interactive Ride Booking
 - Real-time Ride Management
 
-## Technologies Used
+## AWS Services
 
 - <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/20a5464d-db29-4af6-86b4-b5d7581a64da" width="22"/> Amplify
 - <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/305d1a9d-1115-4932-abd2-123ed67adcec" width="22"/> Cognito

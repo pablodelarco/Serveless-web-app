@@ -10,11 +10,15 @@ UnicornRides is a web application for requesting unicorn rides from Wild Rydes. 
 
 ## Technologies Used
 
-- ![AWS Lambda Logo](![image](https://github.com/pablodelarco/Serveless-web-app/assets/63775967/ed3c7b3d-02b1-4232-860c-84112024ebc2)) AWS Lambda
-- ![Amazon API Gateway Logo](![image](https://github.com/pablodelarco/Serveless-web-app/assets/63775967/58025426-86dc-41ab-8fc7-e2741dd4eb0e)) Amazon API Gateway
-- ![Amazon DynamoDB Logo](![image](https://github.com/pablodelarco/Serveless-web-app/assets/63775967/56dc546f-99f0-476d-ba73-f6be672b44d7)) Amazon DynamoDB
-- ![Amazon Cognito Logo](![image](https://github.com/pablodelarco/Serveless-web-app/assets/63775967/305d1a9d-1115-4932-abd2-123ed67adcec)) Amazon Cognito
-- ![AWS Amplify Console Logo](![image](https://github.com/pablodelarco/Serveless-web-app/assets/63775967/20a5464d-db29-4af6-86b4-b5d7581a64da)) AWS Amplify Console
+- <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/20a5464d-db29-4af6-86b4-b5d7581a64da" width="22"/> Amplify
+- <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/305d1a9d-1115-4932-abd2-123ed67adcec" width="22"/> Cognito
+- <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/58025426-86dc-41ab-8fc7-e2741dd4eb0e" width="22"/> API Gateway
+- <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/ed3c7b3d-02b1-4232-860c-84112024ebc2" width="22"/> Lambda
+- <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/56dc546f-99f0-476d-ba73-f6be672b44d7" width="22"/> DynamoDB
+
+
+
+
 
 
 ## Application Architecture

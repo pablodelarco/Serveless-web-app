@@ -44,5 +44,9 @@ Detail the steps required to set up and run the application locally, including A
 </details>
 
 ## Screenshots/Demo
-Include images/screenshots of the app in action.
+
+<img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/9bf42832-ce28-419f-962d-ee6466cfc9ce" width="500"/>
+
+<img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/280b182f-d63a-448c-a355-7a138567b5b1" width="505"/>
+
 

@@ -1,5 +1,8 @@
 # Serverless Web App in AWS: UnicornRides
 
+
+  <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/f6b5af36-3b71-4b1b-8e36-58541b4f2915" width="600"/>
+
 ## Description
 UnicornRides is a web application for requesting unicorn rides from Wild Rydes. It showcases serverless AWS technologies, offering user authentication and real-time ride management.
 
@@ -33,9 +36,6 @@ The serverless architecture for this web application is built upon several AWS s
 - **AWS API Gateway**: Acts as the intermediary for all dynamic API calls over HTTPS from the client, enabling communication between the web browser and AWS Lambda.
 - **AWS Lambda**: The compute layer, it processes the application logic in response to API calls and interacts with the database.
 - **AWS DynamoDB**: Maintains a robust NoSQL database for storing ride data, interacted with by Lambda functions.
-
-  ![image](https://github.com/pablodelarco/Serveless-web-app/assets/63775967/f6b5af36-3b71-4b1b-8e36-58541b4f2915)
-
 
 
 ## Setup and Installation

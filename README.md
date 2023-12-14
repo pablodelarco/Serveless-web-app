@@ -10,7 +10,7 @@ UnicornRides is a web application for requesting unicorn rides from Wild Rydes. 
 
 ## AWS Services
 
-- <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/56dc546f-99f0-476d-ba73-f6be672b44d7]" width="22"/> CodeCommit
+- <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/5ded8d7c-b121-40c1-ab71-d2c5fd00237c" width="22"/> CodeCommit
 - <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/993d8de3-ab69-4e2e-9f14-ea8dd1b09110" width="22"/> Identity and Access Management (IAM)
 - <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/20a5464d-db29-4af6-86b4-b5d7581a64da" width="22"/> Amplify
 - <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/305d1a9d-1115-4932-abd2-123ed67adcec" width="22"/> Cognito

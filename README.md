@@ -1,7 +1,7 @@
 # AWS Serverless Web App: UnicornRides
 
 
-  <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/f6b5af36-3b71-4b1b-8e36-58541b4f2915" width="600"/>
+  <img src="https://github.com/pablodelarco/Serveless-web-app/assets/63775967/7ee5a785-4846-4a3b-bef3-234a19b727d6" width="600"/>
 
 ## Description
 UnicornRides is a web application for requesting unicorn rides from Wild Rydes. It showcases serverless AWS technologies, offering user authentication and real-time ride management.

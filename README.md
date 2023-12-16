@@ -141,7 +141,7 @@ The serverless architecture for this web application is built upon several AWS s
 
 
 ## Acknowledgments
-For a more detailed tutorial, I have created this guide in a Notion page: [https://shorturl.at/dnoM0](url)
+For a more detailed tutorial, I have created this guide in a Notion page: [https://shorturl.at/qzDEL](url)
 
 This project was inspired by the AWS tutorial on building a serverless web application: [Build a Serverless Web Application](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/?nc1=h_ls).
 

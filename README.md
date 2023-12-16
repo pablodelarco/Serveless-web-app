@@ -40,11 +40,9 @@ The serverless architecture for this web application is built upon several AWS s
 
 ## Setup and Installation
 <details>
-<summary>Click to expand!</summary>
+<summary>Part 1: Host a Static Website</summary>
 <p>
-
-### Part 1: Host a Static Website
-
+  
 **AWS Services:** 
 - AWS CodeCommit for code storage.
 - AWS IAM for permission handling.
@@ -62,8 +60,13 @@ The serverless architecture for this web application is built upon several AWS s
 **3. Enable Web Hosting with AWS Amplify:**
 - Set up a new web app in AWS Amplify linked to your CodeCommit repository.
 - Follow the prompts to deploy your website.
+  
+</p>
+</details>
 
-### Part 2: Create User Pool in Cognito
+<details>
+<summary>Part 2: Create User Pool in Cognito</summary>
+<p>
 
 **AWS Service:** AWS Cognito for user management.
 
@@ -74,8 +77,13 @@ The serverless architecture for this web application is built upon several AWS s
 **2. Update the Website Config File:**
 - Adjust `js/config.js` with the `userPoolId` and `userPoolClientId` from Cognito.
 
-### Part 3: Build a Serverless Backend
+</p>
+</details>
 
+<details>
+<summary>Part 3: Build a Serverless Backend</summary>
+<p>
+  
 **AWS Services:** 
 - AWS DynamoDB for data storage.
 - AWS Lambda for backend processing.
@@ -90,8 +98,14 @@ The serverless architecture for this web application is built upon several AWS s
 - In AWS Lambda, establish a function named “RequestUnicorn.”
 - Assign the IAM role and deploy the function with `requestUnicorn.js` code.
 
-### Part 4: Deploy a RESTful API
+</p>
+</details>
 
+
+<details>
+<summary>Part 4: Deploy a RESTful API</summary>
+<p>
+  
 **AWS Service:** AWS API Gateway.
 
 **1. Create a REST API:**
@@ -110,7 +124,6 @@ The serverless architecture for this web application is built upon several AWS s
 
 **5. Update the Website Config:**
 - In `js/config.js`, update the `invokeUrl` with the URL from the API Gateway.
-
 
 </p>
 </details>

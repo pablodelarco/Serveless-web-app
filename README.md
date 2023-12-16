@@ -43,7 +43,74 @@ The serverless architecture for this web application is built upon several AWS s
 <summary>Click to expand!</summary>
 <p>
 
-Detail the steps required to set up and run the application locally, including AWS configuration, local environment setup, and any other necessary instructions.
+### Part 1: Host a Static Website
+
+**AWS Services:** 
+- AWS CodeCommit for code storage.
+- AWS IAM for permission handling.
+- AWS Amplify for web hosting.
+
+**Create a Git Repository:**
+- Start by creating a repository named “wildrydes-site” in AWS CodeCommit.
+- In AWS IAM, create a new user, e.g., *TTTAdmin*, and attach the `AWSCodeCommitPowerUser` policy for CodeCommit access.
+- Generate Git credentials for HTTPS connections to CodeCommit.
+
+**Configure the Git Repository:**
+- Clone your new repository using AWS CloudShell.
+- Use Git commands to copy static files from S3, then add, commit, and push these files.
+
+**Enable Web Hosting with AWS Amplify:**
+- Set up a new web app in AWS Amplify linked to your CodeCommit repository.
+- Follow the prompts to deploy your website.
+
+### Part 2: Create User Pool in Cognito
+
+**AWS Service:** AWS Cognito for user management.
+
+**Create an AWS Cognito User Pool:**
+- Create a user pool named “WildRydes” with default settings.
+- Save the User Pool ID and Client ID.
+
+**Update the Website Config File:**
+- Adjust `js/config.js` with the `userPoolId` and `userPoolClientId` from Cognito.
+
+### Part 3: Build a Serverless Backend
+
+**AWS Services:** 
+- AWS DynamoDB for data storage.
+- AWS Lambda for backend processing.
+
+**Create an Amazon DynamoDB Table:**
+- Create a table named “Rides” with “RideId” as the partition key.
+
+**Create an IAM Role for Lambda:**
+- Set up a role in IAM for Lambda, granting necessary permissions for DynamoDB access.
+
+**Create a Lambda Function:**
+- In AWS Lambda, establish a function named “RequestUnicorn.”
+- Assign the IAM role and deploy the function with `requestUnicorn.js` code.
+
+### Part 4: Deploy a RESTful API
+
+**AWS Service:** AWS API Gateway.
+
+**Create a REST API:**
+- In API Gateway, establish a new API named “WildRydes.”
+
+**Create an Authorizer:**
+- Set up a Cognito authorizer and test it with an Authorization Token.
+
+**Create a New Resource and Method:**
+- Add a 'ride' resource with a POST method, integrated with the Lambda function.
+- Set the Cognito authorizer for the method.
+
+**Deploy Your API:**
+- Deploy the API by creating a stage named 'dev'.
+- Note the Invoke URL for future use.
+
+**Update the Website Config:**
+- In `js/config.js`, update the `invokeUrl` with the URL from the API Gateway.
+
 
 </p>
 </details>
